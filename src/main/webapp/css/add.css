@@ -1,0 +1,21 @@
+body{
+    background-color: LightCoral;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: backColor;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes backColor {
+  0%   {background-color:Crimson; left:0px; top:0px;}
+  10%  {background-color:HotPink; left:200px; top:0px;}
+  20%  {background-color:MediumVioletRed; left:200px; top:200px;}
+  30%  {background-color:Coral; left:0px; top:200px;}
+  40%  {background-color:DarkOrange; left:0px; top:0px;}
+  50%  {background-color:Gold; left:0px; top:0px;}
+  60%  {background-color:Aquamarine; left:200px; top:0px;}
+  70%  {background-color:LightSteelBlue; left:200px; top:200px;}
+  80%  {background-color:DimGray; left:0px; top:200px;}
+  90%  {background-color:DarkGrey; left:0px; top:0px;}
+  100% {background-color:; LightSlateGrey:0px; top:0px;}
